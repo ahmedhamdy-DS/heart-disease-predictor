@@ -1,4 +1,4 @@
-# 🫀 Heart Disease Prediction App
+#  Heart Disease Prediction App
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
@@ -10,10 +10,10 @@ An interactive, data-driven web application built with **Python** and **Streamli
 
 ---
 
-## 📌 Overview & Problem Statement
+##  Overview & Problem Statement
 Early diagnosis of cardiovascular diseases (CVDs) plays a critical role in saving lives. Traditional diagnostic methods can be time-consuming and resource-intensive. This project aims to provide a fast, reliable, and accessible preliminary screening tool for individuals and healthcare professionals to assess heart disease risk using routine clinical data (e.g., blood pressure, cholesterol levels, max heart rate).
 
-## ✨ Key Features
+##  Key Features
 * **Interactive UI:** A clean, user-friendly interface for seamless clinical data entry.
 * **Real-time Prediction:** Instantaneous processing and risk assessment.
 * **Advanced Feature Engineering:** Incorporates medical domain knowledge by utilizing engineered features like Heart Rate Reserve (HRR) and a Composite Risk Score to enhance predictive accuracy.
@@ -21,7 +21,7 @@ Early diagnosis of cardiovascular diseases (CVDs) plays a critical role in savin
 
 ---
 
-## 🧠 Model Performance
+##  Model Performance
 Multiple classification algorithms (including Random Forest and Gradient Boosting) were evaluated and tuned using `GridSearchCV`. The experiments were rigorously tracked using `MLflow`. 
 
 The final production model is a fine-tuned **Logistic Regression**, which proved to be highly robust and resistant to overfitting on this clinical dataset, achieving the following metrics on the unseen test set:
@@ -30,7 +30,7 @@ The final production model is a fine-tuned **Logistic Regression**, which proved
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Programming Language:** Python
 * **Data Manipulation:** Pandas, NumPy
 * **Machine Learning:** Scikit-Learn
@@ -40,7 +40,7 @@ The final production model is a fine-tuned **Logistic Regression**, which proved
 
 ---
 
-## 🚀 How to Run Locally
+##  How to Run Locally
 
 To run this application on your local machine, follow these steps:
 
